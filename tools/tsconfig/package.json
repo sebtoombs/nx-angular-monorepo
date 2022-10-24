@@ -1,0 +1,14 @@
+{
+  "name": "tsconfig",
+  "version": "1.0.0",
+  "private": true,
+  "files": [
+    "tsconfig.json",
+    "tsconfig.app.json",
+    "tsconfig.app.spec.json",
+    "tsconfig.lib.json",
+    "tsconfig.lib.prod.json",
+    "tsconfig.lib.spec.json",
+    "tsconfig.spec.json"
+  ]
+}

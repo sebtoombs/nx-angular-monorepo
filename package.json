@@ -1,0 +1,19 @@
+{
+  "name": "package-based-one-angular",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "npx nx build page-header && cp -R packages/page-header/dist apps/transaction/node_modules/page-header"
+  },
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "nx": "15.0.1",
+    "prettier": "^2.6.2"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*",
+    "tools/*"
+  ]
+}
